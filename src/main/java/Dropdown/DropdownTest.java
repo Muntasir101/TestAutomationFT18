@@ -7,10 +7,10 @@ import org.openqa.selenium.support.ui.Select;
 
 public class DropdownTest extends TestBase {
     public static void main(String[] args) {
-        chrome_Launch();
+        firefox_Launch();
         openBaseURL("https://the-internet.herokuapp.com/dropdown");
         DrpDwnTest();
-        close_Chrome();
+       close_Firefox();
     }
     public static void DrpDwnTest(){
         WebElement drp=driver.findElement(By.id("dropdown"));
